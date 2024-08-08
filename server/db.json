@@ -1,0 +1,247 @@
+{
+"menu": [
+  {
+    "id": 0,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Панчани",
+    "gram": "280г.",
+    "price": 2800,
+    "description": "Острый салат из маринованного судака и маринованной редьки",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 1,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Кактуги",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Салат из маринованной редьки-дайкон средней остроты",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 2,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Кимчи",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Классика корейской кухни - маринованная пекинская капуста в смеси пряных специй, по южнокорейскому рецепту",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 3,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Чимчи",
+    "gram": "280г.",
+    "price": 1900,
+    "description": "Та же классика из маринованной пекинской капусты, но по рецепту местных корейцев",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 4,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Чимчи жареный",
+    "gram": "280г.",
+    "price": 2100,
+    "description": "Обжаренная маринованная пекинскаякапуста по рецепту местных корейцев, с обжаренной говядиной",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 5,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Морков-Ча",
+    "gram": "280г.",
+    "price": 1800,
+    "description": "Еще одна популярная классика местной корейской кухни - тонко шинкованная морковь в растительном масле и специях",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 6,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Ве-Ча",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Пряный салат из огурцов, помидоров, кинзы, лука и нежной говядины",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 7,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Тиргуми-Ча",
+    "gram": "280г.",
+    "price": 2100,
+    "description": "Хрустящий салат из проросших соевых бобов в ароматной смеси неострых пряностей",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 8,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Кади-Ча",
+    "gram": "280г.",
+    "price": 2600,
+    "description": "Обжаренные баклажаны с дунганским перцем, луком, помидорами и говядиной, в перечном масле",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 9,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Камди-Ча",
+    "gram": "280г.",
+    "price": 1900,
+    "description": "Ошпаренный картофель с луком, кинзой, в перечном масле",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 10,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Емди-Ча",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Бланшированный джусай с луком в соевом соусе и специях",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 11,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Меги-Ча",
+    "gram": "280г.",
+    "price": 2500,
+    "description": "Насыщенный салат из морской капусты и говядины в перечном маслех",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 12,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Спаржа",
+    "gram": "280г.",
+    "price": 2300,
+    "description": "Еще одна популярная классика корейской кухни - салат из соевой “спаржи”, болгарского перца, и моркови с кинзой и специями",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 13,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Косари-Ча",
+    "gram": "280г.",
+    "price": 2700,
+    "description": "Папоротник, обжаренный с говядиной, луком в перечном масле и специях",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 14,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Сегумча-Ча",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Бланшированный шпинат с луком в перечном масле и специях",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 15,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Чесночные стрелки",
+    "gram": "280г.",
+    "price": 2300,
+    "description": "Молодые побеги чеснока с помидорами, обжаренной говядиной, луком, кинзой в перечном масле",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 16,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Баклажаны с таем жареные",
+    "gram": "280г.",
+    "price": 2500,
+    "description": "С помидорами, дунганским перцем, луком в густой соевой пасте",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 17,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Баклажаны с таем на пару",
+    "gram": "280г.",
+    "price": 2300,
+    "description": "То же самое, но приготовленное в пароварке",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 18,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Перец жареный с мясом",
+    "gram": "280г.",
+    "price": 2500,
+    "description": "Дунганский перец обжаренный с говядиной в перечном масле",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 19,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Кочи Ип",
+    "gram": "280г.",
+    "price": 2200,
+    "description": "Листья стручкового перца с помидорами, говядиной, кинзой, луком и в перечном масле",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 20,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Шиитаки",
+    "gram": "280г.",
+    "price": 2500,
+    "description": "Ароматные грибы шиитаке с аппетитной текстурой, маринованные со специями",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 21,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Грибы Эноки",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Бланшированные грибы (что-то вродеопят), с чесноком, луком",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 22,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Древесные Грибы",
+    "gram": "280г.",
+    "price": 2000,
+    "description": "Маринованные хрустящие древесные грибы в специях",
+    "category": 1,
+    "rating": 0
+  },
+  {
+    "id": 23,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Сервисный Салатик",
+    "gram": "280г.",
+    "price": 300,
+    "description": "За деталами оброщайтесь к официанту",
+    "category": 1,
+    "rating": 0
+  }
+
+]
+}
+   
+  
