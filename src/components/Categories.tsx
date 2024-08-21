@@ -5,15 +5,14 @@ import '@splidejs/react-splide/css/sea-green';
 
 
 
-function Categories() {
-  const [categorieActive, setAategorieActive] = useState(0);
-
+function Categories({ value, onChangeCategory}) {
+  // const [categorieActive, setAategorieActive] = useState(0);
 
  
 
-  const onClickCategory = (index) => {
-    setAategorieActive(index);
-  };
+  // const onClickCategory = (index) => {
+  //   setAategorieActive(index);
+  // };
 
   const categories = [
     'Все',
@@ -43,14 +42,14 @@ function Categories() {
         pagination: false,
       }}
       aria-label="Splide Basic Example">
-      {categories.map((category, index) => (
+      {categories.map((categoryName, index) => (
         <SplideSlide key={index}>
           <div className="categories">
             <ul>
               <li
-                onClick={() => onClickCategory(index)}
-                className={categorieActive === index ? 'active' : ''}>
-                {category}
+                onClick={() => onChangeCategory(index)}
+                className={value === index ? 'active' : ''}>
+                {categoryName}
               </li>
             </ul>
           </div>

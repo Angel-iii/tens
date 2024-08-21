@@ -1,6 +1,7 @@
 function PizzaBlock(props: any) {
   return (
-    <div className="pizza-block">
+    <div className="pizza-block-wrapper">
+      <div className="pizza-block">
       <img className="pizza-block__image" src={props.imageUrl} alt="Pizza" />
       <h4 className="pizza-block__title">{props.title} </h4>
       <div className="pizza-block__selector">
@@ -24,6 +25,7 @@ function PizzaBlock(props: any) {
           <i>2</i>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -10,19 +10,20 @@ import db from '../server/db.json';
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import NotFounder from "./pages/NotFounder";
+import { useState } from "react";
 
 
 function App() {
-  
+  const [searchValue, setSearchValue] = useState('')
 
   return (
     <>
       <div className="wrapper">
-        <Header />
+        <Header searchValue={searchValue} setSearchValue={setSearchValue}/>
         <div className="content">
-          <div className="container">
+          
             <Routes>
-              <Route path="/" element={<Home/>}/>
+              <Route path="/" element={<Home searchValue={searchValue} />}/>
               <Route path="/cart" element={<Cart/>}/>
               <Route path="*" element={<NotFounder/>}/>
 
@@ -30,7 +31,6 @@ function App() {
            
           </div>
         </div>
-      </div>
     </>
   );
 }

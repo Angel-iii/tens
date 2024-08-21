@@ -239,6 +239,116 @@
     "description": "За деталами оброщайтесь к официанту",
     "category": 1,
     "rating": 0
+  },
+  {
+    "id": 24,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из баклажанов",
+    "gram": "280г.",
+    "price": 2500,
+    "description": "Так же содержит помидоры, дунганский перец, морковь, кинзу, лук и специи.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 25,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из кабачков",
+    "gram": "280г.",
+    "price": 2500,
+    "description": "А так же спомидорами, дунганскии перцем, морковью, кинзой, луком и специями.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 26,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из рыбы",
+    "gram": "280г.",
+    "price": 3000,
+    "description": "Классика хе - маринованный судак, дунганский перец, кинза, огурец, лук и специи.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 27,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из кальмаров",
+    "gram": "280г.",
+    "price": 3000,
+    "description": "Маринованное мясо кальмара с луком, морковью и специями.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 28,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из курицы",
+    "gram": "280г.",
+    "price": 2800,
+    "description": "Смесь отварной и маринованного куриного мяса с луком, кинзой и специями.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 29,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из куриных желудков",
+    "gram": "280г.",
+    "price": 2800,
+    "description": "Маринованные и отварные куриные желудки с луком, дунганским перцем, морковью и специями.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 30,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из говядины",
+    "gram": "280г.",
+    "price": 3200,
+    "description": "Отварное филе с луком, кинзой и специями",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 31,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из говяжьей голени",
+    "gram": "280г.",
+    "price": 3200,
+    "description": "С луком, дунганским перцем, кинзой, и специями",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 32,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из требухи",
+    "gram": "280г.",
+    "price": 3000,
+    "description": "Отварной говяжий желудок с дунганским перцем, морковью, луком, кинзой и специями.",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 33,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из говяжьего сердца",
+    "gram": "280г.",
+    "price": 3200,
+    "description": "Отварное говяжье сердце, лук репчатый, перец полуострый, кинза, специи",
+    "category": 2,
+    "rating": 0
+  },
+  {
+    "id": 34,
+    "imageUrl": "../src/static/img/foto.png",
+    "title": "Хе из лыток",
+    "gram": "280г.",
+    "price": 2800,
+    "description": "Отварные свиные лытки, лук репчатый, кинза, специи",
+    "category": 2,
+    "rating": 0
   }
 
 ]
