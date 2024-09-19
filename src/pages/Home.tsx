@@ -40,7 +40,6 @@ export const Home = ({ searchValue }) => {
 
         setItems(responce.data);
         setIsLoader(false);
-        console.log(categoryId);
       })
       .catch((error) => {
         console.error(error);
@@ -62,6 +61,7 @@ export const Home = ({ searchValue }) => {
           : items.map((obj) => (
               <PizzaBlock
                 key={obj.id}
+                id={obj.id}
                 title={obj.title}
                 imageUrl={obj.imageUrl}
                 price={obj.price}

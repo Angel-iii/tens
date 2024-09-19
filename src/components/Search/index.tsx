@@ -4,24 +4,26 @@ import debounce from 'lodash.debounce';
 
 const Search = ({ searchValue, setSearchValue }) => {
   const inputRef = useRef();
+const [value, setValue] = useState('');
 
-const testDobounce = useCallback(
-debounce(() => {
-  console.log('HELLO')
-}, 1000),
-[]
-);
 
   const onClickClear = () => {
-    seSearchValue('');
+    setSearchValue('');
+    setValue('');
     inputRef.current.focus();
   };
 
-const onChangeInput = (event) => {
-  setSearchValue(event.target.value)
-  testDobounce();
-};
+const updateSearchValue = useCallback(
+  debounce((str) => {
+    setSearchValue(str);
+  }, 1000),
+  []
+  );
 
+const onChangeInput = event => {
+  setValue(event.target.value);
+  updateSearchValue(event.target.value);
+}
 
   return (
     <div className={styles.root}>
@@ -37,13 +39,14 @@ const onChangeInput = (event) => {
       </svg>
       <input
         ref={inputRef}
-        value={searchValue}
+        value={value}
         onChange={onChangeInput}
         className={styles.input}
         placeholder="Поиск пиццы..."
       />
-      {searchValue && (
+      {value && (
         <svg
+        onClick={onClickClear}
           className={styles.clearIcon}
           xmlns="http://www.w3.org/2000/svg"
           width="64"
